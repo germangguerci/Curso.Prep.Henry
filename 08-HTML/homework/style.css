@@ -1,5 +1,7 @@
 h1 {
-    color:red;
+    color:blue;
+    margin:auto;
+    max-width: 100%;
 }
 img {
     width:400px;
@@ -8,11 +10,24 @@ img {
 #thirdDiv {
     height:600px;
     width:500px;
-    background-color: plum;
+    background-color: lightblue;
     padding:50px;
-    border: 5px solid red;
+    border: 5px solid blue;
+    margin:auto;
     }
 #spanId{
     font-size:18px;
     margin: 50px;
+}
+div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+body{
+    background-image: url("https://i2.wp.com/onaircode.com/wp-content/uploads/2017/11/Tesselation-Transition.jpg?resize=948%2C527&ssl=1");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
