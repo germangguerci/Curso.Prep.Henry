@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <header>
+        <div class="container cabezera">
+            <img src="./cv.jpg">
+            <div class="titulos">
+                <h1>Curriculum Vitae</h1>
+                <h2>Germán Gerardo Guerci</h2>
+            </div>
+        </div>
+    </header>
+    <body>
+        <div class="container">3
+            <div class="row">
+                <div class="negro" style="font-size:1.2rem;">
+                    <p>
+                        Soy German Guerci, un joven de 23 años amante de la programación con muchas ganas de poner en practica
+                        su conicimiento acumulado asi como también continuar aprendiendo.
+                    </p>
+                </div>
+                <div class="amarillo">
+                    <h4>EDUCACIÓN</h4>
+                    <ul>
+                        <li>Escuela Secundaria Técnica: EET Nº 1 Raúl Scalabrini Ortiz - Orientación Informática.</li>
+                        <li>Curso de CSS3 y HTML5 (Diseño Web) - UTN </li>
+                        <li>Certificado de JavaScript, algoritmos y estructuras de datos (Curso de +300hs) en FreeCodeCamp (Organización sin fines de lucro).</li>
+                        <li>Full Stack WEB development en HENRY (En curso)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="amarillo">
+                    <h4>- EXPERIENCIA LABORAL</h4>
+                    <ul>
+                        <li>Web Master en Radio Cooperativa AM 1440</li>
+                    </ul>
+                </div>
+                <div class="negro">
+                    <h4>SKILLS</h4>
+                    <ul>
+                        <li>Programador Junior JavaScript</li>
+                        <li>HTML, CSS</li>
+                        <li>Wordpress</li>
+                        <li>Media Manager</li>
+                        <li>Manejo avanzado de Photoshop</li>
+                        <li>Instalacion y mantenimiento de redes</li>
+                        <li>Ingles Avanzado</li>
+                    </ul>
+                </div>   
+            </div>
+            <div class="row">
+                <div class="negro">
+                    <h4>HOBBIES</h4>
+                    <ul>
+                        <li>Surf</li>
+                        <li>Cultivo Hidroponico y Huerta Familiar</li>
+                        <li>Lectura</li>
+                    </ul>
+                </div>
+                <div class="amarillo" style="flex-direction: column; border-bottom: 4px solid black;">
+                    <h4>HENRY</h4>
+                    <p>Estudio Full Stack Development en Henry por que me interesa ordenar mis estudios previos de front-end
+                    repasando lo que aprendi de forma autodidacta e incorporando nuevos conocimientos de back-end.    
+                    </p>
+                    <p>
+                        Mi expectativa es poder acceder a un trabajo donde pueda sacar provecho de mis habilidades informaticas
+                        con una remuneracion acorde a los estandares de la industria, como asi llegar a ser programador Senior.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+<style>
+    img {
+        width:200px;
+        height:200px;
+        border-radius: 50%;
+        margin: 10px;
+        border: 4px solid black;
+        box-sizing: border-box;
+    }
+    .container{
+        width: 920px;
+        max-width:920px;
+        margin: auto;
+        background-color:black;
+        display:flex;
+        flex-direction:column;
+    }
+    .cabezera{
+        width: 100%;
+        height: 220px;
+        background-color:yellow;
+        flex-direction:row;
+        border: 4px solid black;
+        box-sizing: border-box;
+    }
+    .titulos{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        margin:auto;
+    }
+    h1{
+        margin-bottom: 5px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 3.5rem;
+    }
+    h2{
+        margin-top: 0px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2rem;
+    }
+    .negro{
+        width:50%;
+        max-height:30%;
+        color:white;
+        box-sizing:border-box;
+        padding:1rem;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        border-left:4px solid black;
+        border-right:4px solid black;
+        display:flex;
+        align-items: center;
+    }
+    .amarillo{
+        width:50%;
+        background-color:yellow;
+        max-height:30%;
+        box-sizing:border-box;
+        padding:1rem;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        border-left:4px solid black;
+        border-right:4px solid black;
+        display:flex;
+        align-items: center;
+    }
+    li{
+        margin-bottom:0.5rem;
+    }
+    .row{
+        width:100%;
+        max-width:100%;
+        flex-direction: row;
+        display:flex;
+    }
+</style>
